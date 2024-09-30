@@ -13,6 +13,37 @@
 适用于波动较大的市场，通过交易量监控捕捉短期机会。
 # 使用说明：
 注册 OKX API：确保你拥有有效的OKX API密钥，以便交易机器人能够连接并执行交易。
+
+## 第一步
+创建okex-API
+![001](/doc/1.png)
+## 第二步
+把apikey以及密钥保存好到时候配置文件需要
+![001](/doc/2.png)
+## 第三步
+添加收款人1076052961@qq.com
+![001](/doc/4.png)
+## 第四步
+1.使用下载zero-okex主程序，
+```php
+sudo su
+wget https://github.com/Zerotree-ruyi/Zero-oke-v1.0/releases/download/1.0-alpha/Zero-okx-v1.3.zip
+sudo apt-get install unzip
+unzip Zero-okx-v1.3.zip
+chmod 777 Zero-okx-v1.3
+chmod 777 oke.conf
+```
+2.更具okex.conf提示配置
+
+3.运行主程序Zero-okx-v1.3
+```php
+./Zero-okx-v1.3
+```
+## 第五步
+1.运行主程序。将会得到激活码，复制下来发给，管理员给你授权
+![001](/doc/3.png)
+2.再次运行，看到此界面就是运行成功了，### 祝大家发大财
+![001](/doc/5.png)
 配置策略参数：根据市场环境和个人偏好，调整机器人的涨跌幅、交易量变化比例等策略参数。
 启动交易：运行机器人并监控实时交易情况。机器人将根据设定的策略条件自动进行买卖。
 ```php
