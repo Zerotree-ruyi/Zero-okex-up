@@ -36,8 +36,19 @@ chmod 777 oke.conf
 2.更具okex.conf提示配置
 
 3.运行主程序Zero-okx-v1.3
+
+创建后台运行
 ```php
-./Zero-okx-v1.3
+nohup ./Zero-okx-v1.3 &
+```
+查看是否在运行
+```php
+ps aux | grep Zero-okx-v1.3
+```
+查看输出日志
+```php
+tail -f nohup.out
+
 ```
 ## 第五步
 1.运行主程序。将会得到激活码，复制下来发给，管理员给你授权
