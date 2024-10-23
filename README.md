@@ -1,4 +1,9 @@
 # OKX Trading Bot
+[![Python version](https://img.shields.io/pypi/pyversions/binance-connector)](https://www.python.org/downloads/)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue)](https://binance-connector.readthedocs.io/en/stable/)
+[![Code Style](https://img.shields.io/badge/code_style-black-black)](https://black.readthedocs.io/en/stable/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 简介
 这是一个为 OKX 交易平台 设计的自动化交易机器人，支持最小交易金额为 15 USDT。该机器人基于用户自定义的交易策略自动执行买卖操作，帮助用户在市场波动中抓住机会。
 
